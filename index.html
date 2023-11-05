@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./script.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="loading"></div>
+    <div class="container">
+        <div class="search-holder">
+            <input type="text" class="search-bar" placeholder="Search Here">
+            <i class='bx bx-search-alt-2 search-icon'></i>
+        </div>
+        <div class="img">
+            <img src="./images/Sunny.png" alt="sun" class="weather-img">
+        </div>
+        <h5 class="detail">Description</h5>
+        <div class="temp">
+            <h2 class="temperature">Temp</h2>
+            <h2 class="city">Place</h2>
+        </div>
+        <div class="extra">
+            <div class="humidity">
+                <div class="humidity-icon-holder">
+                    <img src="./images/humidity.png" alt="humidity" class="humidity-img">
+                </div>
+                <div class="humidity-detail">
+                    <h4 class="percentage">Percentage</h4>
+                    <h3 class="heading">Humidity</h3>
+                </div>
+            </div>
+            <div class="humidity">
+                <div class="humidity-icon-holder">
+                    <img src="./images/wind.png" alt="humidity" class="humidity-img">
+                </div>
+                <div class="humidity-detail">
+                    <h4 class="percentage wind-per">Speed</h4>
+                    <h3 class="heading">Wind Speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
